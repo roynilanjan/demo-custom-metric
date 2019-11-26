@@ -1,0 +1,15 @@
+spring:
+  security:
+    user:
+      name: abc
+      password: abcgr
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "metrics,prometheus"
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true

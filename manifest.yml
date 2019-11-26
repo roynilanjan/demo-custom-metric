@@ -1,0 +1,8 @@
+---
+applications:
+  - name: demo-metric-registrar
+    buildpacks:
+      - java_buildpack
+    memory: 2GB
+    disk_quota: 1GB
+    path: build/libs/demo-custom-metric-0.0.1-SNAPSHOT.jar
